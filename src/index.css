@@ -1,0 +1,24 @@
+.one{
+    display: flex;
+    flex-direction: column;
+}
+html {
+    scroll-behavior: smooth;
+  }
+  
+
+.about,.project,.cert,.contact{
+    font: 400 16px/1.5 exo, ubuntu, "segoe ui", helvetica, arial, sans-serif;
+}
+
+.text-justify{
+    text-align: justify;
+}
+
+.carousel-inner img {
+    height: 400px;        /* fixed height for all images */
+    object-fit: contain;  /* scale image to fit without cropping */
+    width: 100%;          /* keep full width */
+  }
+  
+  
