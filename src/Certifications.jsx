@@ -1,11 +1,6 @@
-import AOS from 'aos';
-import 'aos/dist/aos.css';
-import React, { useEffect } from 'react';
+import React from 'react';
 
 function Certifications() {
-    useEffect(() => {
-            AOS.init({ duration: 1000 });
-          }, []);
 
     return (
         <div className="container p-4 cert" id="certifications" data-aos="zoom-in" data-aos-duration="2000">
@@ -14,31 +9,31 @@ function Certifications() {
             <div id="carouselExampleInterval" className="carousel slide" data-bs-ride="carousel">
                 <div className="carousel-inner">
                     <div className="carousel-item active" data-bs-interval="2000">
-                        <img src="/Certificates/python_udemy.webp" className="d-block w-100" alt="..." />
+                        <img src="/Certificates/python_udemy.webp" className="d-block w-100" alt="Python Udemy Certificate" decoding="async" />
                     </div>
                     <div className="carousel-item" data-bs-interval="2000">
-                        <img src="/Certificates/sql.webp" className="d-block w-100" alt="..." />
+                        <img src="/Certificates/sql.webp" className="d-block w-100" alt="SQL Certificate" loading="lazy" decoding="async" />
                     </div>
                     <div className="carousel-item" data-bs-interval="2000">
-                        <img src="/Certificates/ijcrt.webp" className="d-block w-100" alt="..." />
+                        <img src="/Certificates/ijcrt.webp" className="d-block w-100" alt="IJCRT Research Publication Certificate" loading="lazy" decoding="async" />
                     </div>
                     <div className="carousel-item" data-bs-interval="2000">
-                        <img src="/Certificates/python_nptel.webp" className="d-block w-100" alt="..." />
+                        <img src="/Certificates/python_nptel.webp" className="d-block w-100" alt="Python NPTEL Certificate" loading="lazy" decoding="async" />
                     </div>
                     <div className="carousel-item" data-bs-interval="2000">
-                        <img src="/Certificates/python_besant.webp" className="d-block w-100" alt="..." />
+                        <img src="/Certificates/python_besant.webp" className="d-block w-100" alt="Python Besant Certificate" loading="lazy" decoding="async" />
                     </div>
                     <div className="carousel-item" data-bs-interval="2000">
-                        <img src="/Certificates/python_guvi.webp" className="d-block w-100" alt="..." />
+                        <img src="/Certificates/python_guvi.webp" className="d-block w-100" alt="Python Guvi Certificate" loading="lazy" decoding="async" />
                     </div>
                     <div className="carousel-item" data-bs-interval="2000">
-                        <img src="/Certificates/postman.webp" className="d-block w-100" alt="..." />
+                        <img src="/Certificates/postman.webp" className="d-block w-100" alt="Postman API Certificate" loading="lazy" decoding="async" />
                     </div>
                     <div className="carousel-item" data-bs-interval="2000">
-                        <img src="/Certificates/blender_udemy.webp" className="d-block w-100" alt="..." />
+                        <img src="/Certificates/blender_udemy.webp" className="d-block w-100" alt="Blender Udemy Certificate" loading="lazy" decoding="async" />
                     </div>
                     <div className="carousel-item" data-bs-interval="2000">
-                        <img src="/Certificates/srm.webp" className="d-block w-100" alt="..." />
+                        <img src="/Certificates/srm.webp" className="d-block w-100" alt="SRM Certificate" loading="lazy" decoding="async" />
                     </div>
                 </div>
                 <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
