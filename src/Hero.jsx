@@ -15,7 +15,7 @@ function Hero() {
 
                         <div className="d-grid gap-2 d-md-flex justify-content-md-start" data-aos="zoom-in">
                             <a href='https://www.linkedin.com/in/sudharsantechie/' type="button" className="btn btn-primary btn-lg px-4 me-md-2">Connect</a>
-                            <a href='https://drive.google.com/file/d/1x-JjWGrpf5XFP7L3vr1zcQR26EDGz1d2/view?usp=sharing' type="button" className="btn btn-primary btn-lg px-4 me-md-2">Resume</a>
+                            <a href='https://drive.google.com/file/d/1ahnfsPVjjOXjBJvfop_VYUfTpfi1n2n9/view?usp=sharing' type="button" className="btn btn-primary btn-lg px-4 me-md-2">Resume</a>
                         </div>
                     </div>
                 </div>
