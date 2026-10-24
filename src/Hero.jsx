@@ -7,7 +7,7 @@ function Hero() {
             <div className="container col-xxl-8 px-4 py-5">
                 <div className="row flex-lg-row-reverse align-items-center g-5 py-5">
                     <div className="col-10 col-sm-8 col-lg-6" data-aos="flip-left" data-aos-delay="500" data-aos-duration="2000">
-                        <img src="/brand-logo-removebg.png" className="d-block mx-lg-auto img-fluid floating-card" alt="Sudharsan logo" width="650" height="500" fetchPriority="high" decoding="async" />
+                        <img src="/one.png" className="d-block mx-lg-auto img-fluid floating-card" alt="Sudharsan logo" width="650" height="500" fetchPriority="high" decoding="async" />
                     </div>
                     <div className="col-lg-6 name-card">
                         <h1 className="display-5 fw-bold text-body-emphasis lh-1 mb-3" data-aos="slide-right">I am Sudharsan</h1>
